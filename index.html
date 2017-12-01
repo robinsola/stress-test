@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ultimate Stress Test</h1>
+      <h4>How stressed are you? Is it affecting your everyday life and relationships? Answer a few questions below and we'll offer you some guidance.</h4>
+      <form id="stress-test">
+        <p>Throughout the day, you mostly feel (check all that apply):</p>
+        <input type="checkbox" name="stress-signs" value="a">Loss of sleep<br>
+        <input type="checkbox" name="stress-signs" value="b">Feeling overwhelmed<br>
+        <input type="checkbox" name="stress-signs" value="c">Overreacting about small things<br>
+        <input type="checkbox" name="stress-signs" value="d">Irritable<br>
+        <input type="checkbox" name="stress-signs" value="e">Hopeless in relationships<br>
+        <input type="checkbox" name="stress-signs" value="f">No time for yourself<br>
+
+        <p>Which health symptoms do you currently have (check all that apply):</p>
+        <input type="checkbox" name="stress-symptoms" value="g">High blood pressure<br>
+        <input type="checkbox" name="stress-symptoms" value="h">Anxiety<br>
+        <input type="checkbox" name="stress-symptoms" value="i">Rapid breathing<br>
+        <input type="checkbox" name="stress-symptoms" value="j">Chest pain<br>
+        <input type="checkbox" name="stress-symptoms" value="k">Restlessness<br>
+        <input type="checkbox" name="stress-symptoms" value="l">Loss of hair color and/or loss of hair in general<br>
+
+        <p>Which coping methods do you regularly us to deal with stress (check all that apply):</p>
+        <input type="checkbox" name="stress-methods" value="managetime">Manage your time<br>
+        <input type="checkbox" name="stress-methods" value="cats">Hang out with cats<br>
+        <input type="checkbox" name="stress-methods" value="meditate">Regular meditation<br>
+        <input type="checkbox" name="stress-methods" value="weed">Smoke weed or consume edibles<br>
+        <input type="checkbox" name="stress-methods" value="exercise">Regular exercise<br>
+        <input type="checkbox" name="stress-methods" value="baths">Salt baths with a glass of wine<br>
+
+        <button type="submit" class="btn btn-primary">Submit Test</button>
+      </form>
+      <span id="extreme-stress">
+        <p>Yikes! You are a ball of tangled up stress! First see a doctor, then try each of the coping methods listed below.</p>
+      </span>
+      <span id="mild-stress">
+        <p>You're a bit stressed. Try some more coping methods to see if you can unwind a bit more.</p>
+      </span>
+      <span id="no-stress">
+        <p>You got it dude! Keep it up!</p>
+      </span>
+    </div>
+  </body>
+</html>
