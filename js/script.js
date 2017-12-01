@@ -27,6 +27,6 @@ $(document).ready(function() {
     } else if (methods.length = stress.length) {
       $("#mild-stress").show();
     }
-
+    $("#stress-test").hide();
   });
 });
